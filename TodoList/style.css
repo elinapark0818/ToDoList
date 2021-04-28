@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
 }
 
 body {
@@ -63,19 +65,18 @@ button {
     display: flex;
     cursor: pointer;
     font-size: 20px;
-    color: white;
+    color: darkgreen;
     transition: all 250ms ease-in-out;
 }
 
 .item__delete:hover {
-    color: darkblue;
     transform: scale(1.1);
 }
 
 .item__divider {
     width: 90%;
     height: 1px;
-    background-color: darkblue;
+    background-color: darkgreen;
     margin: auto;
 }
 
@@ -112,5 +113,5 @@ button {
 
 .plusBtn:hover {
     transform: scale(1.2);
-    color: darkblue;
+    color: darkgreen;
 }
