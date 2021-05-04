@@ -35,10 +35,10 @@ button {
 }
 
 .header {
-    height: 32px;
+    height: 48px;
     color: white;
     font-size: 24px;
-    padding: 0 8px;
+    padding: 8px 8px;
     background: rgb(185,232,22);
     background: linear-gradient(90deg,
     rgba(185,232,22,0.7808695652173914) 15%,
