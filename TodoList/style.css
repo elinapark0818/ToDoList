@@ -66,7 +66,7 @@ button {
     display: flex;
     cursor: pointer;
     font-size: 20px;
-    color: darkgreen;
+    color: black;
     transition: all 250ms ease-in-out;
 }
 
@@ -77,7 +77,7 @@ button {
 .item__divider {
     width: 90%;
     height: 1px;
-    background-color: darkgreen;
+    background-color: black;
     margin: auto;
 }
 
@@ -113,5 +113,5 @@ button {
 
 .plusBtn:hover {
     transform: scale(1.2);
-    color: darkgreen;
+    color: black;
 }
