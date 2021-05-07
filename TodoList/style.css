@@ -5,7 +5,9 @@
 }
 
 body {
-    background-color: whitesmoke;
+    margin: 150px;
+    background-image: url("img/note.png");
+    object-fit: contain;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -39,11 +41,10 @@ button {
     color: white;
     font-size: 24px;
     padding: 8px 8px;
-    background: rgb(185,232,22);
+    background: rgb(245,246,242);
     background: linear-gradient(90deg,
-    rgba(185,232,22,0.7808695652173914) 15%,
-    rgba(113,220,232,0.888695652173913) 74%
-    );
+    rgba(245,246,242,0.7808695652173914) 39%,
+    rgba(0,12,14,0.888695652173913) 100%);
     border-radius: 10px 10px 0 0;
 }
 
@@ -83,11 +84,10 @@ button {
 .footer {
     color: white;
     border-radius: 0 0 10px 10px;
-    background: rgb(185,232,22);
+    background: rgb(245,246,242);
     background: linear-gradient(90deg,
-    rgba(185,232,22,0.7808695652173914) 15%,
-    rgba(113,220,232,0.888695652173913) 74%
-    );
+    rgba(245,246,242,0.7808695652173914) 39%,
+    rgba(0,12,14,0.888695652173913) 100%);
 }
 
 .footer__text {
