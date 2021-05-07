@@ -13,6 +13,10 @@ body {
     text-align: center;
 }
 
+span {
+    color: black;
+}
+
 ul {
     padding: 0;
 }
@@ -37,6 +41,8 @@ button {
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
     height: 48px;
     color: white;
     font-size: 24px;
@@ -112,6 +118,24 @@ button {
 }
 
 .plusBtn:hover {
+    transform: scale(1.2);
+    color: black;
+}
+
+.resetBtn {
+    display: flex;
+    justify-content: initial;
+    padding: 8px;
+    font-size: 20px;
+    width: 48px;
+    height: 48px;
+    background-color: transparent;
+    border-radius: 50%;
+    color: white;
+    transition: all 300ms ease-in;
+}
+
+.resetBtn:hover {
     transform: scale(1.2);
     color: black;
 }
